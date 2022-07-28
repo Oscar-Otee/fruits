@@ -8,7 +8,6 @@ import AddFruitForm from "./AddFruitForm";
   const [fruits, setFruits] = useState([]);
   const [search, setSearch] = useState("");
   const [select, setSelect] = useState("all");
-  const [myFavoriteVisible, setMyFavoriteVisible] = useState(true);
 
   useEffect(() => {
     fetch("http://localhost:8005/fruits")
@@ -152,9 +151,6 @@ import AddFruitForm from "./AddFruitForm";
         <AddFruitForm 
           addFruitFun={addFruitFun}
         />
-        <button onClick={() => setMyFavoriteVisible(!myFavoriteVisible)} >
-          Show/hide Favorite Fruits
-        </button>
 
         <FruitsList
           fruits={filterSearchFruits()}

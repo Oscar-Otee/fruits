@@ -1,5 +1,8 @@
 import React, {useState, useEffect} from "react";
 import FavoriteFruitsList from "./FavoriteFruitsList";
+import FavoriteFruitsHeader from "./FavoriteFruitsHeader";
+
+
 
 function FavoriteFruitsContainer() {
   const [myFavoriteVisible, setMyFavoriteVisible] = useState(true);
@@ -48,8 +51,12 @@ function FavoriteFruitsContainer() {
 
   return (
     <div className="app">
+      <FavoriteFruitsHeader />
       <div className="sidebar">
-        <button onClick={() => setMyFavoriteVisible(!myFavoriteVisible)} >
+        <button 
+        onClick={() => setMyFavoriteVisible(!myFavoriteVisible)} 
+        style={{background: "maroon", color: "white", height: "50px"}}
+        >
           Show/hide Favorite Fruits
         </button>
       </div>

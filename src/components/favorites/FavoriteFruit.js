@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function FavoriteFruit({fruit, deleteFruitFun, addToMyFavorites}) {
+function FavoriteFruit({fruit, addToMyFavorites}) {
   const [isSelected, setIsSelected] = useState(false);
   const {genus, name, family, order, nutritions:{carbohydrates, protein, fat, calories, sugar}} = fruit;
 
