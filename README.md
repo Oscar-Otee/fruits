@@ -220,7 +220,7 @@ As a user, I should be able to:
 
 ### Endpoints for Advanced Deliverables
 
-#### DELETE /transactions/:id
+#### DELETE /fruits/:id
 
 Example Response:
 
