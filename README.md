@@ -76,8 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Welcome to the Home of Fruits, where you can trust us with all your favorite fruits
 data! Use the below gif as an example of how the app should function.
 
-![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-code-challenge-bank-of-flatiron/demo.gif)
-
 > To view in VSCode, right click on the README.md file and select "Open Preview".
 
 ## Instructions
