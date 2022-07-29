@@ -9,10 +9,10 @@ function Home() {
               You can click the <Link to="/about">About</Link> button to know more about this website.
           </p>
           <p>
-          You can click the <Link to="/fruitContainer">Fruits</Link> button to be able to perform some actions on the fruits.
+              You can click the <Link to="/fruitContainer">Fruits</Link> button to be able to perform some actions on the fruits.
           </p>
           <p>
-          Click the <Link to="/favoriteFruitsContainer">Favorites</Link> button to be able to select your favorite fruits and see them by clicking Show/hide Favorite Fruits button.
+              Click the <Link to="/favoriteFruitsContainer">Favorites</Link> button to be able to select your favorite fruits and see them by clicking Show/hide Favorite Fruits button.
           </p>
       </div>
   )
