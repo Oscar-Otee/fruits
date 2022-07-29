@@ -6,6 +6,18 @@ function Home() {
       <div style={{background: "coral", color: "white"}}>
           <h1>Welcome to This FruWeb Website, the Home of Fruits!</h1>
           <p>
+              Are you passionate about fruits?
+          </p>
+          <p>
+              Do you know more about the content of fruits?
+          </p>
+          <p>
+              Do you know more about the content of fruits?
+          </p>
+          <p>
+              Do you want to select your favorite fruits?
+          </p>
+          <p>
               You can click the <Link to="/about">About</Link> button to know more about this website.
           </p>
           <p>
