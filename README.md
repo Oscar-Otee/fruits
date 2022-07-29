@@ -113,6 +113,7 @@ As a user, I should be able to:
 - Add a fruit to my favorites and see it on a separate list.
 - Sort fruits alphabetically by category or description.
 - Delete a fruit which will remove it from the table and delete it from the backend.
+- Show/hide favorite fruits.
 
 ### Endpoints for Deliverables
 
