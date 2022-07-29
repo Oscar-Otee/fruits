@@ -12,7 +12,7 @@ function Home() {
               Do you want to select your favorite fruits?
           </p>
           <p>
-              Do you know more about the content of fruits?
+              Do you know more about the content of a fruit?
           </p>
           
           <p>
