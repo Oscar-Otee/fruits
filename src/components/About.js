@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function About() {
   return(
     <div>
-       <h1>Welcome and know more about this website and how to navigate!</h1>
+       <h1>Welcome and know more about this website and how to navigate</h1>
        <div>
          <p>
            Since many people in the world suffer from various diseases that need caution on the type of food to take fruits inluded,

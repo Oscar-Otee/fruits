@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import FruitsList from "./FruitsList";
 import Search from "./Search";
 import AddFruitForm from "./AddFruitForm";
+import FruitsHeader from "./FruitsHeader";
 
  function FruitContainer() {
 
@@ -143,6 +144,7 @@ import AddFruitForm from "./AddFruitForm";
 
     return (
       <div>
+        <FruitsHeader />
         <Search 
            searchValue={search}
            searchFun={searchFun}
