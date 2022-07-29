@@ -16,7 +16,7 @@ function Fruit({fruit, deleteFruitFun}) {
 
 
   return (
-    <tr>
+    <tr style={{background: "indigo", color: "white", margin: "100px"}}>
       <td>{genus}</td>
       <td>{name}</td>
       <td>{family}</td>
@@ -26,7 +26,7 @@ function Fruit({fruit, deleteFruitFun}) {
       <td>{fat}</td>
       <td>{calories}</td>
       <td>{sugar}</td>
-      <td><button onClick={handleDelete}>Delete</button></td> 
+      <td><button onClick={handleDelete} style={{background: "purple", color: "white"}}>Delete</button></td> 
     </tr>
   );
 };

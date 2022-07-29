@@ -14,7 +14,7 @@ function FruitsList({fruits, select, selectFun, deleteFruitFun}) {
 
 
   return (
-    <table className="ui celled striped padded table">
+    <table className="ui celled striped padded table" style={{background: "purple", color: "black"}}>
       <tbody>
         <tr>
           <th>
