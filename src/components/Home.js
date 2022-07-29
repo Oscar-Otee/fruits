@@ -26,7 +26,7 @@ function Home() {
           </p><br></br>
 
           <p>
-              FruWeb is the answer to the above questions. So welcome and feel free to navigate the site by cliking the bellow words marked in bue.
+              <strong>FruWeb is the answer to the above questions. So welcome and feel free to navigate the site by cliking the bellow words marked in bue.</strong>
           </p>
           <p>
               You can click the <Link to="/about">About</Link> button to know more about this website.
