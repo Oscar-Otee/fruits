@@ -13,7 +13,7 @@ const linkStyles = {
 
 function NavBar() {
   return (
-    <div>
+    <div style={{background: "cyan", color: "white"}}>
       <NavLink
         to="/"
         exact

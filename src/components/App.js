@@ -1,6 +1,5 @@
 import React from "react";
 import FruitContainer from "./FruitContainer";
-
 import "../stylesheets/App.css";
 import { Route, Switch } from "react-router-dom";
 import Home from "./Home";
@@ -11,7 +10,7 @@ import FavoriteFruitsContainer from "./favorites/FavoriteFruitsContainer";
 
 function App() {
   return (
-    <div>
+    <div style={{background: "purple", color: "white"}}>
       <Header />
       <NavBar />
       <Switch>
