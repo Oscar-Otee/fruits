@@ -71,33 +71,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-# The Home of Fruits
+# FruWeb The Home of Fruits
 
 Welcome to the Home of Fruits, where you can trust us with all your favorite fruits
-data! Use the below gif as an example of how the app should function.
+data!
 
-> To view in VSCode, right click on the README.md file and select "Open Preview".
 
 ## Instructions
 
-For this project, you’ll be building out a React application that displays a
-list of your recent bank transactions, among other features.
-
-Part of what this code challenge is testing is your ability to follow given
-instructions. While you will definitely have a significant amount of freedom in
-how you implement the features, be sure to carefully read the directions for
-setting up the application.
+For this project, I’ll be building out a React application that displays a
+list of fruits, among other features.
 
 ## Setup
 
-After unbundling the project:
-
 1. Run `npm install` in your terminal.
-2. Run `npm run server`. This will run your backend on port `8001`.
-3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
+2. Run `npm run server`. This will run your backend on port `8005`.
+3. In a new terminal, run `npm start`. This will run your React app on port `3001`.
 
 Make sure to open
-[http://localhost:8001/transactions](http://localhost:8001/transactions) in the
+[http://localhost:8005/fruits](http://localhost:8005/fruits) in the
 browser to verify that your backend is working before you proceed!
 
 The app uses [Semantic UI](https://semantic-ui.com/) for styling. If you see any
@@ -122,6 +114,9 @@ As a user, I should be able to:
 - Filter fruits by typing into the search bar. Only fruits with a
   description matching the search term should be shown in the fruits
   table.
+-Able to add favorites and remove them from favorites.
+- Sort fruits alphabetically by category or description.
+- Delete a fruit which will remove it from the table and delete it from the backend.
 
 ### Endpoints for Core Deliverables
 

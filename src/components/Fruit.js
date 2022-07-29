@@ -5,7 +5,7 @@ function Fruit({fruit, deleteFruitFun}) {
 
 
   function handleDelete(evt) {
-    fetch(`http://localhost:8005/fruits/${fruit.id}`, {
+    fetch(`http://localhost:3000/fruits/${fruit.id}`, {
       method: 'DELETE',
     })
     .then(r => r.json())

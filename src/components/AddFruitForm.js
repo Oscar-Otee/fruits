@@ -18,7 +18,7 @@ function AddFruitForm ({addFruitFun}) {
 
   function handleSubmit (evt) {
     evt.preventDefault()
-    fetch('http://localhost:8005/fruits', {
+    fetch('http://localhost:3000/fruits', {
       method: "POST",
       headers: {
         'content-type': 'application/json'

@@ -11,7 +11,7 @@ import FruitsHeader from "./FruitsHeader";
   const [select, setSelect] = useState("all");
 
   useEffect(() => {
-    fetch("http://localhost:8005/fruits")
+    fetch("http://localhost:3000/fruits")
       .then((r) => r.json())
       .then((fruits) => {
         setFruits(fruits);
