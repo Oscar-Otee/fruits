@@ -11,13 +11,13 @@ function FruitsHeader (){
         </p>
         <div>
             <p>
-                Do you want to navigate to Home, click <Link to="/">here.</Link> 
+                Do you want to navigate to Home, click <Link to="/">here</Link>. 
             </p>
             <p>
-                Do you want to navigate to About, click <Link to="/about">here.</Link> 
+                Do you want to navigate to About, click <Link to="/about">here</Link>.
             </p>
             <p>
-                Do you want to navigate to Favorites, click <Link to="/favoriteFruitsContainer">here.</Link> 
+                Do you want to navigate to Favorites, click <Link to="/favoriteFruitsContainer">here</Link>. 
             </p>
        </div>
     </div>
