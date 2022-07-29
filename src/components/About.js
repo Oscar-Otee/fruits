@@ -35,13 +35,13 @@ function About() {
        </div>
        <div>
          <p>
-           Do you want to navigate to Home, click <Link to="/">here.</Link> 
+           Do you want to navigate to Home, click <Link to="/">here</Link>.
          </p>
          <p>
-           Do you want to navigate to Fruits, click <Link to="/fruitContainer">here.</Link> 
+           Do you want to navigate to Fruits, click <Link to="/fruitContainer">here</Link>.
          </p>
          <p>
-           Do you want to navigate to Favorites, click <Link to="/favoriteFruitsContainer">here.</Link> 
+           Do you want to navigate to Favorites, click <Link to="/favoriteFruitsContainer">here</Link>. 
          </p>
        </div>
     </div>
