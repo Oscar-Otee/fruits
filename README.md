@@ -1,3 +1,8 @@
+# FruWeb The Home of Fruits
+
+Welcome to the Home of Fruits, where you can trust us with all your favorite fruits
+data!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,13 +75,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-
-# FruWeb The Home of Fruits
-
-Welcome to the Home of Fruits, where you can trust us with all your favorite fruits
-data!
-
-
 ## Instructions
 
 For this project, I’ll be building out a React application that displays a
@@ -92,9 +90,7 @@ Make sure to open
 [http://localhost:3000/fruits](http://localhost:3000/fruits) in the
 browser to verify that your backend is working before you proceed!
 
-The app uses [Semantic UI](https://semantic-ui.com/) for styling. If you see any
-unfamiliar classNames on some components, don't sweat! That's coming from
-Semantic UI and you shouldn't need to touch it.
+The app uses [Semantic UI](https://semantic-ui.com/) for styling.
 
 If you are unfamiliar with HTML tables, take a look at the
 [docs with an example here](https://www.w3schools.com/html/html_tables.asp)
@@ -114,7 +110,7 @@ As a user, I should be able to:
 - Filter fruits by typing into the search bar. Only fruits with a
   description matching the search term should be shown in the fruits
   table.
--Able to add favorites and remove them from favorites.
+- Add a fruit to my favorites and see it on a separate list.
 - Sort fruits alphabetically by category or description.
 - Delete a fruit which will remove it from the table and delete it from the backend.
 
