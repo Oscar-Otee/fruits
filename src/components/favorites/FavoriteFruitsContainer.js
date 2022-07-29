@@ -55,7 +55,7 @@ function FavoriteFruitsContainer() {
       <div className="sidebar">
         <button 
         onClick={() => setMyFavoriteVisible(!myFavoriteVisible)} 
-        style={{background: "maroon", color: "white", height: "50px"}}
+        style={{background: "darkgreen", color: "white", height: "50px"}}
         >
           Show/hide Favorite Fruits
         </button>
