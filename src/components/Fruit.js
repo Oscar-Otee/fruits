@@ -26,7 +26,7 @@ function Fruit({fruit, deleteFruitFun}) {
       <td>{fat}</td>
       <td>{calories}</td>
       <td>{sugar}</td>
-      <td><button onClick={handleDelete} style={{background: "purple", color: "white"}}>Delete</button></td> 
+      <td><button onClick={handleDelete} style={{background: "aqua", color: "black"}}>Delete</button></td> 
     </tr>
   );
 };
