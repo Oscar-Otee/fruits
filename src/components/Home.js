@@ -12,7 +12,10 @@ function Home() {
               Do you know more about the content of fruits?
           </p>
           <p>
-              Do you know more about the content of fruits?
+              Do you want to search for a fruit and know whether it is in the list?
+          </p>
+          <p>
+              Do you want to add a fruit that is not in the list?
           </p>
           <p>
               Do you want to select your favorite fruits?
