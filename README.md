@@ -85,11 +85,11 @@ list of fruits, among other features.
 ## Setup
 
 1. Run `npm install` in your terminal.
-2. Run `npm run server`. This will run your backend on port `8005`.
-3. In a new terminal, run `npm start`. This will run your React app on port `3001`.
+2. Run `npm run server`. This will run your backend on port `3000`.
+3. In a new terminal, run `npm start`. This will run your React app on port `8005`.
 
 Make sure to open
-[http://localhost:8005/fruits](http://localhost:8005/fruits) in the
+[http://localhost:3000/fruits](http://localhost:3000/fruits) in the
 browser to verify that your backend is working before you proceed!
 
 The app uses [Semantic UI](https://semantic-ui.com/) for styling. If you see any
@@ -101,7 +101,7 @@ If you are unfamiliar with HTML tables, take a look at the
 
 ## Endpoints
 
-The base URL for your backend is: `http://localhost:8005`
+The base URL for your backend is: `http://localhost:3000`
 
 ## Core Deliverables
 
