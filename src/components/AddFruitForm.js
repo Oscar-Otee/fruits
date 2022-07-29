@@ -75,8 +75,8 @@ function AddFruitForm ({addFruitFun}) {
 
 
     return (
-      <div className="ui segment">
-        <form className="ui form" onSubmit={handleSubmit}>
+      <div className="ui segment" style={{background: "coral", color: "white"}}>
+        <form className="ui form" onSubmit={handleSubmit} style={{background: "blue", color: "white"}}>
           <div className="inline fields">
             <input 
               type="text" 

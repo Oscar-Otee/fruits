@@ -10,7 +10,7 @@ function Search({searchValue, searchFun}) {
     <div className="ui large fluid icon input">
       <input
         type="text"
-        placeholder={"Search your Recent Fruits"}
+        placeholder={"Search your Recent Fruits By Name"}
         value={searchValue}
         onChange={handleChange}
       />
