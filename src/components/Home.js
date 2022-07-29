@@ -21,6 +21,9 @@ function Home() {
               Do you want to select your favorite fruits?
           </p>
           <p>
+              Do you want to order fruits in the in the list to help you make a decision on which one to buy based on your health status?
+          </p>
+          <p>
               You can click the <Link to="/about">About</Link> button to know more about this website.
           </p>
           <p>
