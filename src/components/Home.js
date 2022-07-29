@@ -3,8 +3,9 @@ import { Link } from "react-router-dom"
 
 function Home() {
   return (
-      <div style={{background: "coral", color: "white"}}>
+      <div style={{background: "coral", color: "white", marginLeft: "300px", marginRight: "300px"}}>
           <h1>Welcome to This FruWeb Website, the Home of Fruits!</h1>
+          <div style={{background: "magenta", color: "white", marginLeft: "100px", marginRight: "100px"}}>
           <p>
               <i>Are you passionate about fruits?</i>
           </p>
@@ -24,6 +25,7 @@ function Home() {
           <p>
               <i>Do you want to order fruits in the in the list to help you make a decision on which one to buy based on your health status?</i>
           </p><br></br>
+          </div>
 
           <p>
               <strong style={{color: "darkcyan"}}>FruWeb is the answer to the above questions. So welcome and feel free to navigate the site by cliking the bellow capitalized words marked in bue or the buttons with green color above.</strong>
