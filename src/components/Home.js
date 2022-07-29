@@ -5,12 +5,12 @@ function Home() {
   return (
       <div style={{background: "coral", color: "white", marginLeft: "300px", marginRight: "300px"}}>
           <h1>Welcome to This FruWeb Website, the Home of Fruits!</h1>
-          <div style={{background: "magenta", color: "white", marginLeft: "100px", marginRight: "100px"}}>
+          <div style={{background: "blue", color: "white", marginLeft: "100px", marginRight: "100px"}}>
           <p>
               <i>Are you passionate about fruits?</i>
           </p>
           <p>
-              <i>Do you want to select your favorite fruits?</i>
+              <i>Do you want to select and know more about your favorite fruits?</i>
           </p>
           <p>
               <i>Do you know more about the content of a fruit?</i>
@@ -31,7 +31,7 @@ function Home() {
               <strong style={{color: "darkcyan"}}>FruWeb is the answer to the above questions. So welcome and feel free to navigate the site by cliking the bellow capitalized words marked in bue or the buttons with green color above.</strong>
           </p>
 
-          <div>
+          <div style={{background: "indigo", color: "white"}}>
           <p>
               <em>You can click the <Link to="/about">About</Link> button to know more about this website.</em>
           </p>
