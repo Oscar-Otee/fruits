@@ -20,7 +20,7 @@ function FavoriteFruit({fruit, addToMyFavorites}) {
       <td>{fat}</td>
       <td>{calories}</td>
       <td>{sugar}</td>
-      <td><button onClick={handleAddToMyFavorite}>{fruit.isFavorite ? "Remove From My Favorites" : "   💓 Add To My Favorites" }</button></td>
+      <td><button onClick={handleAddToMyFavorite} style={{background: "aqua", color: "black"}}>{fruit.isFavorite ? " 💔 Remove From My Favorites" : "💓 Add To My Favorites" }</button></td>
     </tr>
   );
 }
