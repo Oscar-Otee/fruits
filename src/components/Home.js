@@ -23,6 +23,10 @@ function Home() {
           </p>
           <p>
               Do you want to order fruits in the in the list to help you make a decision on which one to buy based on your health status?
+          </p><br></br>
+
+          <p>
+              FruWeb is the answer to the above questions. So welcome and feel free to navigate the site by cliking the bellow words marked in bue.
           </p>
           <p>
               You can click the <Link to="/about">About</Link> button to know more about this website.
