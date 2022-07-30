@@ -14,7 +14,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -84,7 +84,7 @@ list of fruits, among other features.
 
 1. Run `npm install` in your terminal.
 2. Run `npm run server`. This will run your backend on port `3000`.
-3. In a new terminal, run `npm start`. This will run your React app on port `8005`.
+3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
 
 Make sure to open
 [http://localhost:3000/fruits](http://localhost:3000/fruits) in the
