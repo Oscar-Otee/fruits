@@ -81,10 +81,8 @@ For this project, I’ll be building out a React application that displays a
 list of fruits, among other features.
 
 ## Technologies Used
--CSS for styling.
--HTML for structure.
--JavaScript for functionality
--Json server
+- CSS.
+- React.
 
 
 ## Files created
@@ -127,6 +125,14 @@ list of fruits, among other features.
 - <NavBar>
 - <Search>
 - <Select>
+
+## Routes created
+- <FavoriteFruitsContainer>
+- <About>
+- <FruitContainer>
+- <Home>
+- <NavBar>
+
 
 
 ## Setup
