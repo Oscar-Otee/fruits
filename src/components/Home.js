@@ -10,20 +10,20 @@ function Home() {
                   <i>Are you passionate about fruits?</i>
               </p>
               <p>
-                  <i>Do you want to select and know more about your favorite fruits?</i>
+                  <i>Do you want to know more about your favorite fruits?</i>
               </p>
               <p>
-                  <i>Do you know more about the content of a fruit?</i>
+                  <i>Do you want to know more about the content of a fruit?</i>
               </p>
             
               <p>
-                  <i>Do you want to add a fruit that is not in the list?</i>
+                  <i>Do you want to add a fruit that is not in this site?</i>
               </p>
               <p>
-                  <i>Do you want to search for a fruit and know whether it is in the list?</i>
+                  <i>Do you want to search for a fruit and know whether it is in this site?</i>
               </p>
               <p>
-                  <i>Do you want to order fruits in the list to help you make a decision on which one to buy based on your health status?</i>
+                  <i>Do you want to order fruits in the site to help you make a decision on which one to buy based on your health status?</i>
               </p><br></br>
           </div>
 
