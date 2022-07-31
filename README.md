@@ -80,6 +80,55 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 For this project, I’ll be building out a React application that displays a
 list of fruits, among other features.
 
+## Technologies Used
+-CSS for styling.
+-HTML for structure.
+-JavaScript for functionality
+-Json server
+
+
+## Files created
+- FavoriteFruit.js
+- FavoriteFruitsContainer.js
+- FavoriteFruitsHeader.js
+- FavoriteFruitsList.js
+- About.js
+- AddFruitForm.js
+- App.js
+- Fruit.js
+- FruitContainer.js
+- FruitsHeader.js
+- FruitsList.js
+- Header.js
+- Home.js
+- NavBar.js
+- Search.js
+- Select.js
+-App.css
+- index.css
+- index.js
+- db.json
+- README.md
+
+## Components created
+- <FavoriteFruit>
+- <FavoriteFruitsContainer>
+- <FavoriteFruitsHeader>
+- <FavoriteFruitsList>
+- <About>
+- <AddFruitForm>
+- <App>
+- <Fruit>
+- <FruitContainer>
+- <FruitsHeader>
+- <FruitsList>
+- <Header>
+- <Home>
+- <NavBar>
+- <Search>
+- <Select>
+
+
 ## Setup
 
 1. Run `npm install` in your terminal.
@@ -204,4 +253,13 @@ Example Response:
 ```json
 {}
 ```
+
+**MS**
+Copyright (c) 2022 **Oscar Oluoch Aboh Otee**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
