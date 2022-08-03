@@ -16,7 +16,7 @@ function Fruit({fruit, deleteFruitFun}) {
 
 
   return (
-    <tr style={{background: "indigo", color: "white", margin: "100px"}}>
+    <tr style={{background: "white", color: "black", margin: "100px"}}>
       <td>{genus}</td>
       <td>{name}</td>
       <td>{family}</td>

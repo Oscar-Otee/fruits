@@ -81,8 +81,11 @@ function AddFruitForm ({addFruitFun}) {
 
     return (
       <div className="ui segment" style={{background: "coral", color: "white"}}>
-        <form className="ui form" onSubmit={handleSubmit} style={{background: "blue", color: "white"}}>
+        <form className="ui form" onSubmit={handleSubmit} style={{background: "lavender", color: "black"}}>
           <div className="inline fields">
+            <label>
+              Genus:
+            </label>
             <input 
               type="text" 
               name="genus"
@@ -90,6 +93,10 @@ function AddFruitForm ({addFruitFun}) {
               value={genus}
               onChange={handleGenusChange}
             />
+            
+            <label>
+              Name:
+            </label><br></br>
             <input 
               type="text" 
               name="name" 
@@ -97,6 +104,11 @@ function AddFruitForm ({addFruitFun}) {
               value={name}
               onChange={handleNameChange}
             />
+
+
+            <label>
+              Family:
+            </label><br></br>
             <input 
               type="text" 
               name="family" 
@@ -104,6 +116,10 @@ function AddFruitForm ({addFruitFun}) {
               value={family}
               onChange={handleFamilyChange}
             />
+
+            <label>
+              Family:
+            </label><br></br>
             <input 
               type="text" 
               name="order" 
@@ -111,6 +127,10 @@ function AddFruitForm ({addFruitFun}) {
               value={order}
               onChange={handleOrderChange}
             />
+
+            <label>
+              Carbohydrates:
+            </label>
             <input
               type="number"
               name="carbohydrates"
@@ -119,6 +139,10 @@ function AddFruitForm ({addFruitFun}) {
               value={nutritions.carbohydrates}
               onChange={handleNutritionsChange}
             />
+
+            <label>
+              Protein:
+            </label>
             <input
               type="number"
               name="protein"
@@ -127,6 +151,10 @@ function AddFruitForm ({addFruitFun}) {
               value={nutritions.protein}
               onChange={handleNutritionsChange}
             />
+
+            <label>
+              Fat:
+            </label>
             <input
               type="number"
               name="fat"
@@ -135,6 +163,10 @@ function AddFruitForm ({addFruitFun}) {
               value={nutritions.fat}
               onChange={handleNutritionsChange}
             />
+
+            <label>
+              Calories:
+            </label>
             <input
               type="number"
               name="calories"
@@ -143,6 +175,10 @@ function AddFruitForm ({addFruitFun}) {
               value={nutritions.calories}
               onChange={handleNutritionsChange}
             />
+
+            <label>
+              Sugar:
+            </label>
             <input
               type="number"
               name="sugar"

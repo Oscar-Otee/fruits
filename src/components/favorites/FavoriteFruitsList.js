@@ -7,7 +7,7 @@ function FavoriteFruitsList({fruits, deleteFruitFun, addToMyFavorites}) {
     fruit => { return(<FavoriteFruit key={fruit.id} fruit={fruit} deleteFruitFun={deleteFruitFun} addToMyFavorites={addToMyFavorites} />)});
 
   return (
-    <table className="ui celled striped padded table" style={{background: "blue", color: "white"}}>
+    <table className="ui celled striped padded table" style={{background: "lavender", color: "black"}}>
       <tbody>
         <tr>
           <th>
