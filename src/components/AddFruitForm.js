@@ -34,11 +34,16 @@ function AddFruitForm ({addFruitFun}) {
     .then(r => r.json())
     .then(addFruit => {
       addFruitFun(addFruit)
-      setGenus(genus);
-      setName(name);
-      setFamily(family);
-      setOrder(order);
-      setNutritions(nutritions);
+      setGenus("");
+      setName("");
+      setFamily("");
+      setOrder("");
+      setNutritions({
+        carbohydrates: "",
+        protein: "",
+        fat: "",
+        calories: "",
+        sugar: ""});
   
     })
 
